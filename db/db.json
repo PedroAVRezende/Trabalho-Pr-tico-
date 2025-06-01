@@ -1,0 +1,611 @@
+{
+  "contatos": [
+    {
+      "nome": "Cleiton Silva Sauro",
+      "telefone": "1-770-736-8031",
+      "email": "Sincere@april.biz",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "website": "hildegard.org",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Ervin Howell",
+      "cidade": "Betim",
+      "categoria": "familia",
+      "email": "Shanna@melissa.tv",
+      "telefone": "010-692-6593",
+      "website": "anastasia.net"
+    },
+    {
+      "id": 3,
+      "nome": "Clementine Bauch",
+      "cidade": "Rio de Janeiro",
+      "categoria": "trabalho",
+      "email": "Nathan@yesenia.net",
+      "telefone": "1-463-123-4447",
+      "website": "ramiro.info"
+    },
+    {
+      "id": 4,
+      "nome": "Patricia Lebsack",
+      "cidade": "Betim",
+      "categoria": "trabalho",
+      "email": "Julianne.OConner@kory.org",
+      "telefone": "493-170-9623 x156",
+      "website": "kale.biz"
+    },
+    {
+      "id": 5,
+      "nome": "Chelsey Dietrich",
+      "cidade": "São Paulo",
+      "categoria": "familia",
+      "email": "Lucio_Hettinger@annie.ca",
+      "telefone": "(254)954-1289",
+      "website": "demarco.info"
+    },
+    {
+      "nome": "Dennis Schulist",
+      "telefone": "1-477-935-8478",
+      "email": "Karley_Dach@jasper.info",
+      "cidade": "Rio de Janeiro",
+      "categoria": "trabalho",
+      "website": "ola.org",
+      "id": 6
+    },
+    {
+      "nome": "Kurtis Silva",
+      "telefone": "210.067.6132",
+      "email": "Telly.Hoeger@billy.biz",
+      "cidade": "Belo Horizonte",
+      "categoria": "amigos",
+      "website": "elvis.io",
+      "id": 7
+    },
+    {
+      "nome": "Nicholas Silva",
+      "telefone": "586.493.6943",
+      "email": "Sherwood@rosamond.me",
+      "cidade": "Belo Horizonte",
+      "categoria": "familia",
+      "website": "jacynthe.com",
+      "id": 8
+    },
+    {
+      "nome": "João Caetano de Oliveira",
+      "telefone": "(775)976-6794",
+      "email": "joao@dana.io",
+      "cidade": "Betim",
+      "categoria": "amigos",
+      "website": "conrad.com",
+      "id": 9
+    },
+    {
+      "id": 10,
+      "nome": "Clementina DuBuque",
+      "cidade": "São Paulo",
+      "categoria": "amigos",
+      "email": "Rey.Padberg@karina.biz",
+      "telefone": "024-648-3804",
+      "website": "ambrose.net"
+    },
+    {
+      "nome": "Felipe Augusto",
+      "cidade": "São Pailo",
+      "categoria": "trabalho",
+      "email": "felipe@pucminas.br",
+      "telefone": "546578845",
+      "website": "felipe.net",
+      "id": 11
+    },
+    {
+      "nome": "Simone Alves Nogueira",
+      "telefone": "21-73737626526",
+      "email": "sidosamba@rio.com",
+      "cidade": "Rio de Janeiro",
+      "categoria": "amigos",
+      "website": "http://pagode.com.br",
+      "id": 12
+    },
+    {
+      "nome": "João Esteves",
+      "telefone": "876348725638",
+      "email": "joao@joaoland.com",
+      "cidade": "Belo Horizonte",
+      "categoria": "trabalho",
+      "website": "http://joao.com",
+      "id": 13
+    },
+    {
+      "nome": "Juao da Silva",
+      "telefone": "764746753753",
+      "email": "juao@x.com",
+      "cidade": "São Paulo",
+      "categoria": "amigos",
+      "website": "http://juao.com",
+      "id": 14
+    },
+    {
+      "nome": "Zé das couves",
+      "telefone": "8787587688",
+      "email": "ze@couves.com",
+      "cidade": "São Paulo",
+      "categoria": "amigos",
+      "website": "https://couves.com",
+      "id": 15
+    },
+    {
+      "nome": "Ze das couves",
+      "telefone": "23422",
+      "email": "ze@couves.com",
+      "cidade": "Sao Paulo",
+      "categoria": "amigos",
+      "website": "https://couves.com",
+      "id": 16
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@abc.com"
+    },
+    {
+      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuario Comum",
+      "email": "user@abc.com"
+    },
+    {
+      "id": "171022ee-09b0-468a-962a-9c0772753cd0",
+      "login": "rommelcarneiro",
+      "senha": "12345",
+      "nome": "Rommel Carneiro",
+      "email": "rommel@abc.com"
+    }
+  ],
+  "locais": [
+    {
+      "id": 1,
+      "descricao": "PUC Minas - Coração Eucarístico",
+      "endereco": "Rua Dom José Gaspar, 500",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -43.992911,
+        -19.923564
+      ],
+      "url": "https://www.pucminas.br",
+      "cor": "red"
+    },
+    {
+      "id": 2,
+      "descricao": "PUC Minas - Praça da Liberdade",
+      "endereco": "Av. Brasil, 2023 - Funcionários",
+      "favorito": false,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -43.9397233,
+        -19.9332786
+      ],
+      "url": "https://www.pucminas.br/unidade/praca-da-liberdade/Paginas/default.aspx",
+      "cor": "red"
+    },
+    {
+      "id": 3,
+      "descricao": "PUC Minas - Barreiro",
+      "endereco": "Avenida Afonso Vaz de Melo, 1.200 - Barreiro",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -44.025818,
+        -19.976609
+      ],
+      "url": "https://www.pucminas.br/unidade/barreiro/Paginas/default.aspx",
+      "cor": "red"
+    },
+    {
+      "id": 4,
+      "descricao": "PUC Minas - São Gabriel",
+      "endereco": "Rua Walter Ianni, 255 - São Gabriel",
+      "favorito": true,
+      "cidade": "Belo Horizonte",
+      "latlong": [
+        -43.917967,
+        -19.859226
+      ],
+      "url": "https://www.pucminas.br/unidade/sao-gabriel/Paginas/default.aspx",
+      "cor": "red"
+    },
+    {
+      "id": 5,
+      "descricao": "PUC Minas - Contagem",
+      "endereco": "R. Rio Comprido, 4.580",
+      "favorito": false,
+      "cidade": "Contagem",
+      "latlong": [
+        -44.076069,
+        -19.939135
+      ],
+      "url": "https://www.pucminas.br/unidade/contagem/Paginas/default.aspx",
+      "cor": "blue"
+    },
+    {
+      "id": 6,
+      "descricao": "PUC Minas - Betim",
+      "endereco": "R. do Rosário, 1.081 Bairro Angola",
+      "favorito": true,
+      "cidade": "Betim",
+      "latlong": [
+        -44.1984331,
+        -19.9550716
+      ],
+      "url": "https://www.pucminas.br/unidade/betim/Paginas/default.aspx",
+      "cor": "blue"
+    },
+    {
+      "id": 7,
+      "descricao": "PUC Minas - Poços de Caldas",
+      "endereco": "Av. Pe. Cletus Francis Cox, 1.661",
+      "favorito": true,
+      "cidade": "Poços de Caldas",
+      "latlong": [
+        -46.5944649,
+        -21.78904
+      ],
+      "url": "https://www.pucpcaldas.br/",
+      "cor": "green"
+    }
+  ],
+  "lancamentos": [
+    {
+      "mes": "jan-24",
+      "categoria": "Alimentação",
+      "valor": 500
+    },
+    {
+      "mes": "jan-24",
+      "categoria": "Transporte",
+      "valor": 200
+    },
+    {
+      "mes": "jan-24",
+      "categoria": "Lazer",
+      "valor": 300
+    },
+    {
+      "mes": "fev-24",
+      "categoria": "Alimentação",
+      "valor": 450
+    },
+    {
+      "mes": "fev-24",
+      "categoria": "Transporte",
+      "valor": 180
+    },
+    {
+      "mes": "fev-24",
+      "categoria": "Lazer",
+      "valor": 350
+    },
+    {
+      "mes": "mar-24",
+      "categoria": "Alimentação",
+      "valor": 600
+    },
+    {
+      "mes": "mar-24",
+      "categoria": "Transporte",
+      "valor": 250
+    },
+    {
+      "mes": "mar-24",
+      "categoria": "Lazer",
+      "valor": 400
+    }
+  ],
+  "cidades": [
+    {
+      "id": 1,
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "populacao": 3800000
+    },
+    {
+      "id": 2,
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "populacao": 11800000
+    },
+    {
+      "id": 3,
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "populacao": 5300000
+    },
+    {
+      "id": 4,
+      "cidade": "Curitiba",
+      "estado": "PR",
+      "populacao": 1200000
+    },
+    {
+      "id": 5,
+      "cidade": "Fortaleza",
+      "estado": "CE",
+      "populacao": 2100000
+    }
+  ],
+  "receitas": [
+    {
+        "id": 1,
+        "titulo": "Bolo de Cenoura",
+        "descricao": "Clássico com cobertura de chocolate.",
+        "categoria": "Sobremesa",
+        "dificuldade": "Fácil",
+        "imagem_principal": "BoloCenoura.jpg",
+        "destaque": true,
+        "ingredientes": [
+          "3 cenouras médias",
+          "3 ovos",
+          "1 xícara de óleo",
+          "2 xícaras de açúcar",
+          "2 xícaras de farinha de trigo",
+          "1 colher de sopa de fermento"
+        ],
+        "modo_de_preparo": [
+          "Bata no liquidificador as cenouras, ovos e óleo.",
+          "Misture com o açúcar e farinha.",
+          "Adicione o fermento e asse por 40 min a 180°C."
+        ],
+        "imagens_complementares": [
+          { "id": 1, "src": "BoloCenoura.jpg", "descricao": "Bolo pronto com cobertura" }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Mousse de Maracujá",
+        "descricao": "Leve e refrescante, perfeita para o verão.",
+        "categoria": "Sobremesa",
+        "dificuldade": "Fácil",
+        "imagem_principal": "MousseMaracuja.jpg",
+        "destaque": true,
+        "ingredientes": [
+          "1 lata de leite condensado",
+          "1 lata de creme de leite",
+          "1 medida de suco de maracujá concentrado"
+        ],
+        "modo_de_preparo": [
+          "Bata tudo no liquidificador.",
+          "Leve à geladeira por 3 horas."
+        ],
+        "imagens_complementares": [
+          { "id": 1, "src": "MousseMaracuja.jpg", "descricao": "Mousse decorada com sementes de maracujá" }
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Risoto de Camarão",
+        "descricao": "Receita refinada para ocasiões especiais.",
+        "categoria": "Almoço",
+        "dificuldade": "Médio",
+        "imagem_principal": "RisotoCamarao.jpg",
+        "destaque": true,
+        "ingredientes": [
+          "2 xícaras de arroz arbóreo",
+          "300g de camarão",
+          "1/2 xícara de vinho branco",
+          "1 litro de caldo de legumes",
+          "1 cebola",
+          "3 colheres de manteiga"
+        ],
+        "modo_de_preparo": [
+          "Refogue cebola, adicione arroz e vinho.",
+          "Adicione caldo aos poucos mexendo sempre.",
+          "Acrescente os camarões e finalize com manteiga."
+        ],
+        "imagens_complementares": [
+          { "id": 1, "src": "RisotoCamarao.jpg", "descricao": "Risoto servido com camarões grelhados" }
+        ]
+      },
+      {
+        "id": 4,
+        "titulo": "Carpaccio de Salmão",
+        "descricao": "Entrada sofisticada e refrescante.",
+        "categoria": "Entrada",
+        "dificuldade": "Fácil",
+        "imagem_principal": "carpacciosalmao.jpg",
+        "destaque": false,
+        "ingredientes": [
+          "150g de salmão fresco em lâminas finas",
+          "Suco de 1 limão",
+          "Azeite de oliva",
+          "Sal e pimenta a gosto"
+        ],
+        "modo_de_preparo": [
+          "Disponha o salmão em um prato.",
+          "Tempere com limão, azeite, sal e pimenta.",
+          "Sirva imediatamente."
+        ],
+        "imagens_complementares": [
+          { "id": 1, "src": "carpacciosalmao.jpg", "descricao": "Prato de carpaccio montado" }
+        ]
+      },
+      {
+        "id": 5,
+        "titulo": "Salmão Grelhado",
+        "descricao": "Tradicional .",
+        "categoria": "Almoço",
+        "dificuldade": "Fácil",
+        "imagem_principal": "Salmao.jpg",
+        "destaque": true,
+        "ingredientes": [
+          "4 filés de salmão (cerca de 150g cada)",
+          "2 colheres de sopa de azeite de oliva",
+          "Sal a gosto",
+          "Pimenta-do-reino a gosto",
+          "Suco de 1 limão",
+          "2 dentes de alho picados (opcional)",
+          "Ramos de alecrim ou tomilho (opcional para aromatizar)"
+        ],
+        "modo_de_preparo": [
+          "Tempere os filés de salmão com sal, pimenta, suco de limão e alho (se desejar).",
+          "Aqueça uma grelha ou frigideira antiaderente em fogo médio-alto e pincele com azeite de oliva.",
+          "Coloque os filés de salmão com a pele virada para baixo (se houver) e grelhe por cerca de 4 a 5 minutos.",
+          "Vire os filés com cuidado e grelhe por mais 3 a 4 minutos, ou até o salmão estar dourado por fora e macio por dentro.",
+          "Se desejar, adicione ramos de alecrim ou tomilho sobre o salmão enquanto grelha para aromatizar.",
+          "Sirva imediatamente, acompanhado de legumes grelhados ou arroz branco."
+        ],
+        "imagens_complementares": [
+          { "id": 1, "src": "Salmao.jpg", "descricao": "Salmão Grelhado" }
+        ]
+      },
+      {
+        "id": 6,
+        "titulo": "Smoothie de Frutas Vermelhas",
+        "descricao": "Clássico bebidas de frutas vermelhas.",
+        "categoria": "Sobremesa",
+        "dificuldade": "Fácil",
+        "imagem_principal": "Smoothiefrutasvermelhas.jpg",
+        "destaque": true,
+        "ingredientes": [
+          "1/2 xícara de morangos",
+          "1/2 xícara de framboesas",
+          "1 banana",
+          "1 xícara de iogurte natural"
+        ],
+        "modo_de_preparo": [
+          "Coloque todos os ingredientes no liquidificador.",
+          "Bata até obter uma mistura homogênea.",
+          "Sirva em um copo e aproveite"
+        ],
+        "imagens_complementares": [
+          { "id": 1, "src": "Smoothiefrutasvermelhas.jpg", "descricao": "Smoothie de Frutas Vermelhas" }
+        ]
+      },
+      {
+        "id": 7,
+        "titulo": "Filé ao Molho de Vinho",
+        "descricao": "Clássico filé ao molho de vinho.",
+        "categoria": "Almoço",
+        "dificuldade": "Médio",
+        "imagem_principal": "FileMolhoVinho.jpg",
+        "destaque": true,
+        "ingredientes": [
+          "4 medalhões de filé mignon (ou contrafilé)",
+          "Sal e pimenta-do-reino a gosto",
+          "2 colheres de sopa de manteiga",
+          "1 colher de sopa de azeite de oliva",
+          "1 cebola pequena picada",
+          "1 dente de alho picado",
+          "1 xícara de vinho tinto seco",
+          "1/2 xícara de caldo de carne",
+          "1 colher de sopa de farinha de trigo (opcional, para engrossar)"
+        ],
+        "modo_de_preparo": [
+          "Tempere os filés com sal e pimenta a gosto.",
+          "Aqueça uma frigideira com azeite e 1 colher de manteiga. Sele os filés até ficarem dourados dos dois lados (cerca de 3 a 4 minutos de cada lado, dependendo do ponto desejado).",
+          "Retire os filés e reserve em local aquecido.",
+          "Na mesma frigideira, adicione a cebola e o alho, refogando até ficarem dourados.",
+          "Adicione o vinho tinto e deixe ferver para evaporar o álcool (cerca de 3 minutos).",
+          "Acrescente o caldo de carne e deixe reduzir por mais 5 minutos. Se quiser engrossar, adicione a farinha diluída em um pouco de água e mexa bem.",
+          "Finalize com a colher de manteiga restante, misturando bem até o molho ficar aveludado.",
+          "Sirva os filés com o molho por cima. Acompanhe com purê de batatas, arroz ou legumes salteados."
+        ],
+        "imagens_complementares": [
+          { "id": 1, "src": "FileMolhoVinho.jpg", "descricao": "Filé ao Molho de Vinho" }
+        ]
+      },
+      {
+        "id": 8,
+        "titulo": "Bruchetta",
+        "descricao": "Clássico entrada.",
+        "categoria": "Entrada",
+        "dificuldade": "Fácil",
+        "imagem_principal": "bruschetta.jpg",
+        "destaque": true,
+        "ingredientes": [
+          "1 baguete (ou pão italiano) cortada em fatias",
+          "3 tomates maduros cortados em cubinhos",
+          "2 dentes de alho picados",
+          "10 folhas de manjericão fresco",
+          "3 colheres de sopa de azeite de oliva",
+          "Sal e pimenta-do-reino a gosto"
+        ],
+        "modo_de_preparo": [
+          "Pré-aqueça o forno a 180°C.",
+          "Coloque as fatias de pão em uma assadeira e asse por cerca de 5 minutos ou até ficarem levemente douradas.",
+          "Em uma tigela, misture os tomates, alho, manjericão, azeite, sal e pimenta.",
+          "Retire o pão do forno e espalhe a mistura de tomate sobre as fatias.",
+          "Sirva imediatamente."
+        ],
+        "imagens_complementares": [
+          { "id": 1, "src": "bruschetta.jpg", "descricao": "Bruschetta" }
+        ]
+      },
+      {
+        "id": 9,
+        "titulo": "Risoto de Cogunelos",
+        "descricao": "Clássico prato.",
+        "categoria": "Entrada",
+        "dificuldade": "Difícil",
+        "imagem_principal": "RisotodeCogumelos.jpg",
+        "destaque": true,
+        "ingredientes": [
+          "2 xícaras de arroz arbóreo",
+          "200g de cogumelos frescos (shiitake, paris ou portobello) fatiados",
+          "1 cebola picada",
+          "2 dentes de alho picados",
+          "1/2 xícara de vinho branco seco",
+          "1 litro de caldo de legumes quente",
+          "3 colheres de sopa de manteiga",
+          "1/2 xícara de parmesão ralado",
+          "Sal e pimenta a gosto"
+        ],
+        "modo_de_preparo": [
+          "Em uma panela, refogue a cebola e o alho em uma colher de manteiga até ficarem translúcidos.",
+          "Adicione os cogumelos e cozinhe por 5 minutos.",
+          "Acrescente o arroz arbóreo e refogue por 2 minutos.",
+          "Adicione o vinho branco e mexa até evaporar.",
+          "Aos poucos, vá adicionando o caldo quente, uma concha por vez, mexendo até o líquido ser absorvido antes de adicionar mais.",
+          "Quando o arroz estiver cremoso e al dente, desligue o fogo.",
+          "Misture o restante da manteiga e o parmesão. Ajuste o sal e a pimenta. Sirva quente."
+        ],
+        "imagens_complementares": [
+          { "id": 1, "src": "RisotodeCogumelos.jpg", "descricao": "Risoto de Cogumelos" }
+        ]
+      },
+      {
+        "id": 10,
+        "titulo": "Ceviche",
+        "descricao": "Clássico",
+        "categoria": "Entrada",
+        "dificuldade": "Fácil",
+        "imagem_principal": "ceviche.jpg",
+        "destaque": true,
+        "ingredientes": [
+          "300g de peixe fresco cortado em cubos (robalo, tilápia ou linguado)",
+          "Suco de 5 limões",
+          "1 cebola roxa cortada em fatias finas",
+          "1 pimenta dedo-de-moça picada (sem sementes, opcional)",
+          "1/2 xícara de coentro fresco picado",
+          "Sal a gosto",
+          "Azeite de oliva (opcional)"
+        ],
+        "modo_de_preparo": [
+          "Prepare o peixe: Corte o peixe em cubos pequenos e certifique-se de que ele esteja fresco e bem limpo. Coloque os cubos em uma tigela grande.",
+          "Adicione o limão: Regue o peixe com o suco dos limões, garantindo que todos os pedaços fiquem bem cobertos. O ácido do limão irá (cozinhar) o peixe. Deixe marinando por cerca de 15 minutos na geladeira.",
+          "Misture os ingredientes: Após o tempo de marinada, adicione a cebola, a pimenta dedo-de-moça, o coentro e o sal ao peixe. Misture delicadamente para incorporar os sabores.",
+          "Finalização: Se desejar, adicione um fio de azeite de oliva para um toque extra de sabor. Ajuste o tempero, se necessário.",
+          "Servir: Sirva imediatamente acompanhado de chips de batata-doce, torradas ou como está."
+        ],
+        "imagens_complementares": [
+          { "id": 1, "src": "ceviche.jpg", "descricao": "Ceviche" }
+        ]
+      }
+  ]
+}

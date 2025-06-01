@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fogão Encantado</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/68f5922e99.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/Logo.png" alt="Fogão Encantado" width="100" />
+        </a>
+        <div class="collapse navbar-collapse">
+          <span class="navbar-text me-auto">Fogão Encantado - O sabor da sua imaginação!</span>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar receita" />
+            <button class="btn btn-outline-success" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+          <ul class="navbar-nav ms-4">
+            <li class="nav-item"><a class="nav-link" href="login.html">Entrar</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Cadastrar</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Minha conta</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main class="container py-4">
+    <div class="row">
+      <!-- Filtros -->
+      <aside class="col-lg-3 col-md-4 mb-4">
+        <h5>Filtrar Receitas</h5>
+        <div class="dropdown my-2">
+          <button class="btn btn-light dropdown-toggle w-100" data-bs-toggle="dropdown">Tipo de Prato</button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Entradas</a></li>
+            <li><a class="dropdown-item" href="#">Almoço</a></li>
+            <li><a class="dropdown-item" href="#">Sobremesas</a></li>
+          </ul>
+        </div>
+        <div class="dropdown my-2">
+          <button class="btn btn-light dropdown-toggle w-100" data-bs-toggle="dropdown">Dificuldade</button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Fácil</a></li>
+            <li><a class="dropdown-item" href="#">Médio</a></li>
+            <li><a class="dropdown-item" href="#">Difícil</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Carrossel e Cards -->
+      <section class="col-lg-9 col-md-8">
+        <!-- Carrossel -->
+        <div id="carouselReceitas" class="carousel slide mb-4" data-bs-ride="carousel">
+          <div class="carousel-inner" id="carousel-inner">
+            <!-- Slides serão inseridos dinamicamente via JS -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselReceitas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselReceitas" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+
+        <!-- Cards -->
+        <div class="row" id="cards-receitas">
+          <!-- Cards serão inseridos dinamicamente via JS -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-light text-center text-lg-start mt-4">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5>Métodos de pagamento</h5>
+          <i class="fa-brands fa-cc-paypal fa-2xl d-block my-2"></i>
+          <i class="fa-brands fa-cc-apple-pay fa-2xl d-block my-2"></i>
+          <i class="fa-solid fa-credit-card fa-2xl d-block my-2"></i>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5>Links rápidos</h5>
+          <a href="#" class="d-block">Ajuda</a>
+          <a href="#" class="d-block">SAC</a>
+          <a href="#" class="d-block">Cancelamentos</a>
+          <a href="#" class="d-block">Política de privacidade</a>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5>Redes sociais</h5>
+          <i class="fa-brands fa-square-instagram fa-2xl me-2"></i>
+          <i class="fa-brands fa-square-facebook fa-2xl me-2"></i>
+          <i class="fa-brands fa-square-twitter fa-2xl"></i>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5>Contato</h5>
+          <p><i class="fa-solid fa-building me-2"></i>Beco da Fome, 79</p>
+          <p><i class="fa-solid fa-envelope me-2"></i>contato@fogaencantado.com</p>
+          <p><i class="fa-solid fa-phone me-2"></i>(11) 1234-5678</p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark text-white text-center py-2">
+      &copy; 2025 Fogão Encantado. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
